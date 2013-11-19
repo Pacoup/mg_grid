@@ -1,0 +1,190 @@
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@      |                                                                @@*/
+/*@@      |                                                Mg Grid START   @@*/
+/*@@     \|/                                                               @@*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+/*
+Mg Grid 1.1.0.0
+http://github.com/Pacoup/mg_grid
+
+   Copyright 2013 Etienne Levesque Guitard
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+*/
+
+.mg_0,.mmg_0{min-height:1px;float:left;width:0%}
+.mg_1,.mmg_1{min-height:1px;float:left;width:1%}
+.mg_2,.mmg_2{min-height:1px;float:left;width:2%}
+.mg_3,.mmg_3{min-height:1px;float:left;width:3%}
+.mg_4,.mmg_4{min-height:1px;float:left;width:4%}
+.mg_5,.mmg_5{min-height:1px;float:left;width:5%}
+.mg_6,.mmg_6{min-height:1px;float:left;width:6%}
+.mg_7,.mmg_7{min-height:1px;float:left;width:7%}
+.mg_8,.mmg_8{min-height:1px;float:left;width:8%}
+.mg_9,.mmg_9{min-height:1px;float:left;width:9%}
+.mg_10,.mmg_10{min-height:1px;float:left;width:10%}
+.mg_11,.mmg_11{min-height:1px;float:left;width:11%}
+.mg_12,.mmg_12{min-height:1px;float:left;width:12%}
+.mg_13,.mmg_13{min-height:1px;float:left;width:13%}
+.mg_14,.mmg_14{min-height:1px;float:left;width:14%}
+.mg_15,.mmg_15{min-height:1px;float:left;width:15%}
+.mg_16,.mmg_16{min-height:1px;float:left;width:16%}
+.mg_17,.mmg_17{min-height:1px;float:left;width:17%}
+.mg_18,.mmg_18{min-height:1px;float:left;width:18%}
+.mg_19,.mmg_19{min-height:1px;float:left;width:19%}
+.mg_20,.mmg_20{min-height:1px;float:left;width:20%}
+.mg_21,.mmg_21{min-height:1px;float:left;width:21%}
+.mg_22,.mmg_22{min-height:1px;float:left;width:22%}
+.mg_23,.mmg_23{min-height:1px;float:left;width:23%}
+.mg_24,.mmg_24{min-height:1px;float:left;width:24%}
+.mg_25,.mmg_25{min-height:1px;float:left;width:25%}
+.mg_26,.mmg_26{min-height:1px;float:left;width:26%}
+.mg_27,.mmg_27{min-height:1px;float:left;width:27%}
+.mg_28,.mmg_28{min-height:1px;float:left;width:28%}
+.mg_29,.mmg_29{min-height:1px;float:left;width:29%}
+.mg_30,.mmg_30{min-height:1px;float:left;width:30%}
+.mg_31,.mmg_31{min-height:1px;float:left;width:31%}
+.mg_32,.mmg_32{min-height:1px;float:left;width:32%}
+.mg_33,.mmg_33{min-height:1px;float:left;width:33%}
+.mg_34,.mmg_34{min-height:1px;float:left;width:34%}
+.mg_35,.mmg_35{min-height:1px;float:left;width:35%}
+.mg_36,.mmg_36{min-height:1px;float:left;width:36%}
+.mg_37,.mmg_37{min-height:1px;float:left;width:37%}
+.mg_38,.mmg_38{min-height:1px;float:left;width:38%}
+.mg_39,.mmg_39{min-height:1px;float:left;width:39%}
+.mg_40,.mmg_40{min-height:1px;float:left;width:40%}
+.mg_41,.mmg_41{min-height:1px;float:left;width:41%}
+.mg_42,.mmg_42{min-height:1px;float:left;width:42%}
+.mg_43,.mmg_43{min-height:1px;float:left;width:43%}
+.mg_44,.mmg_44{min-height:1px;float:left;width:44%}
+.mg_45,.mmg_45{min-height:1px;float:left;width:45%}
+.mg_46,.mmg_46{min-height:1px;float:left;width:46%}
+.mg_47,.mmg_47{min-height:1px;float:left;width:47%}
+.mg_48,.mmg_48{min-height:1px;float:left;width:48%}
+.mg_49,.mmg_49{min-height:1px;float:left;width:49%}
+.mg_50,.mmg_50{min-height:1px;float:left;width:50%}
+.mg_51,.mmg_51{min-height:1px;float:left;width:51%}
+.mg_52,.mmg_52{min-height:1px;float:left;width:52%}
+.mg_53,.mmg_53{min-height:1px;float:left;width:53%}
+.mg_54,.mmg_54{min-height:1px;float:left;width:54%}
+.mg_55,.mmg_55{min-height:1px;float:left;width:55%}
+.mg_56,.mmg_56{min-height:1px;float:left;width:56%}
+.mg_57,.mmg_57{min-height:1px;float:left;width:57%}
+.mg_58,.mmg_58{min-height:1px;float:left;width:58%}
+.mg_59,.mmg_59{min-height:1px;float:left;width:59%}
+.mg_60,.mmg_60{min-height:1px;float:left;width:60%}
+.mg_61,.mmg_61{min-height:1px;float:left;width:61%}
+.mg_62,.mmg_62{min-height:1px;float:left;width:62%}
+.mg_63,.mmg_63{min-height:1px;float:left;width:63%}
+.mg_64,.mmg_64{min-height:1px;float:left;width:64%}
+.mg_65,.mmg_65{min-height:1px;float:left;width:65%}
+.mg_66,.mmg_66{min-height:1px;float:left;width:66%}
+.mg_67,.mmg_67{min-height:1px;float:left;width:67%}
+.mg_68,.mmg_68{min-height:1px;float:left;width:68%}
+.mg_69,.mmg_69{min-height:1px;float:left;width:69%}
+.mg_70,.mmg_70{min-height:1px;float:left;width:70%}
+.mg_71,.mmg_71{min-height:1px;float:left;width:71%}
+.mg_72,.mmg_72{min-height:1px;float:left;width:72%}
+.mg_73,.mmg_73{min-height:1px;float:left;width:73%}
+.mg_74,.mmg_74{min-height:1px;float:left;width:74%}
+.mg_75,.mmg_75{min-height:1px;float:left;width:75%}
+.mg_76,.mmg_76{min-height:1px;float:left;width:76%}
+.mg_77,.mmg_77{min-height:1px;float:left;width:77%}
+.mg_78,.mmg_78{min-height:1px;float:left;width:78%}
+.mg_79,.mmg_79{min-height:1px;float:left;width:79%}
+.mg_80,.mmg_80{min-height:1px;float:left;width:80%}
+.mg_81,.mmg_81{min-height:1px;float:left;width:81%}
+.mg_82,.mmg_82{min-height:1px;float:left;width:82%}
+.mg_83,.mmg_83{min-height:1px;float:left;width:83%}
+.mg_84,.mmg_84{min-height:1px;float:left;width:84%}
+.mg_85,.mmg_85{min-height:1px;float:left;width:85%}
+.mg_86,.mmg_86{min-height:1px;float:left;width:86%}
+.mg_87,.mmg_87{min-height:1px;float:left;width:87%}
+.mg_88,.mmg_88{min-height:1px;float:left;width:88%}
+.mg_89,.mmg_89{min-height:1px;float:left;width:89%}
+.mg_90,.mmg_90{min-height:1px;float:left;width:90%}
+.mg_91,.mmg_91{min-height:1px;float:left;width:91%}
+.mg_92,.mmg_92{min-height:1px;float:left;width:92%}
+.mg_93,.mmg_93{min-height:1px;float:left;width:93%}
+.mg_94,.mmg_94{min-height:1px;float:left;width:94%}
+.mg_95,.mmg_95{min-height:1px;float:left;width:95%}
+.mg_96,.mmg_96{min-height:1px;float:left;width:96%}
+.mg_97,.mmg_97{min-height:1px;float:left;width:97%}
+.mg_98,.mmg_98{min-height:1px;float:left;width:98%}
+.mg_99,.mmg_99{min-height:1px;float:left;width:99%}
+.mg_100,.mmg_100{min-height:1px;float:left;width:100%}
+@media screen and (max-width: 767px)
+{
+	.mg_0,
+	.mg_1, .mg_2, .mg_3, .mg_4, .mg_5,
+	.mg_6, .mg_7, .mg_8, .mg_9, .mg_10,
+	.mg_11, .mg_12, .mg_13, .mg_14, .mg_15,
+	.mg_16, .mg_17, .mg_18, .mg_19, .mg_20,
+	.mg_21, .mg_22, .mg_23, .mg_24, .mg_25,
+	.mg_26, .mg_27, .mg_28, .mg_29, .mg_30,
+	.mg_31, .mg_32, .mg_33, .mg_34, .mg_35,
+	.mg_36, .mg_37, .mg_38, .mg_39, .mg_40,
+	.mg_41, .mg_42, .mg_43, .mg_44, .mg_45,
+	.mg_46, .mg_47, .mg_48, .mg_49, .mg_50,
+	.mg_51, .mg_52, .mg_53, .mg_54, .mg_55,
+	.mg_56, .mg_57, .mg_58, .mg_59, .mg_60,
+	.mg_61, .mg_62, .mg_63, .mg_64, .mg_65,
+	.mg_66, .mg_67, .mg_68, .mg_69, .mg_70,
+	.mg_71, .mg_72, .mg_73, .mg_74, .mg_75,
+	.mg_76, .mg_77, .mg_78, .mg_79, .mg_80,
+	.mg_81, .mg_82, .mg_83, .mg_84, .mg_85,
+	.mg_86, .mg_87, .mg_88, .mg_89, .mg_90,
+	.mg_91, .mg_92, .mg_93, .mg_94, .mg_95,
+	.mg_96, .mg_97, .mg_98, .mg_99, .mg_100
+	{
+		float: none;
+		height: auto;
+		width: auto;
+	}
+}
+@media screen and (max-width: 550px)
+{
+	.mmg_0,
+	.mmg_1, .mmg_2, .mmg_3, .mmg_4, .mmg_5,
+	.mmg_6, .mmg_7, .mmg_8, .mmg_9, .mmg_10,
+	.mmg_11, .mmg_12, .mmg_13, .mmg_14, .mmg_15,
+	.mmg_16, .mmg_17, .mmg_18, .mmg_19, .mmg_20,
+	.mmg_21, .mmg_22, .mmg_23, .mmg_24, .mmg_25,
+	.mmg_26, .mmg_27, .mmg_28, .mmg_29, .mmg_30,
+	.mmg_31, .mmg_32, .mmg_33, .mmg_34, .mmg_35,
+	.mmg_36, .mmg_37, .mmg_38, .mmg_39, .mmg_40,
+	.mmg_41, .mmg_42, .mmg_43, .mmg_44, .mmg_45,
+	.mmg_46, .mmg_47, .mmg_48, .mmg_49, .mmg_50,
+	.mmg_51, .mmg_52, .mmg_53, .mmg_54, .mmg_55,
+	.mmg_56, .mmg_57, .mmg_58, .mmg_59, .mmg_60,
+	.mmg_61, .mmg_62, .mmg_63, .mmg_64, .mmg_65,
+	.mmg_66, .mmg_67, .mmg_68, .mmg_69, .mmg_70,
+	.mmg_71, .mmg_72, .mmg_73, .mmg_74, .mmg_75,
+	.mmg_76, .mmg_77, .mmg_78, .mmg_79, .mmg_80,
+	.mmg_81, .mmg_82, .mmg_83, .mmg_84, .mmg_85,
+	.mmg_86, .mmg_87, .mmg_88, .mmg_89, .mmg_90,
+	.mmg_91, .mmg_92, .mmg_93, .mmg_94, .mmg_95,
+	.mmg_96, .mmg_97, .mmg_98, .mmg_99, .mmg_100
+	{
+		float: none;
+		height: auto;
+		width: auto;
+	}
+}
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*@@     /|\                                                               @@*/
+/*@@      |                                                  Mg Grid END   @@*/
+/*@@      |                                                                @@*/
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
